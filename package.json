@@ -1,0 +1,33 @@
+{
+  "name": "@henry781/honkit-plugin-twemoji",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/honkit/honkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honkit/honkit.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/honkit/honkit/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "css"
+  ],
+  "dependencies": {
+    "twemoji": "^14.0.2"
+  },
+  "devDependencies": {
+    "less": "^3.12.2"
+  },
+  "scripts": {
+  },
+  "engines": {
+    "gitbook": ">=2.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
